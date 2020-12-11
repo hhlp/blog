@@ -13,17 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: jperrin.org
+title: Blog
 email:
 description: >-
-  I do terrible things to software.
+  My Linux Journey.
 
 twitter_username: BitIntegrity
 github_username: jperrin
 github: [metadata]
 minimal_mistakes_skin: default
 search: true
-repository: "jperrin/jperrin.github.io"
+repository: "hhlp/hhlp.github.io"
 
 # Build settings
 markdown: kramdown
@@ -32,7 +32,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: America/Los_Angeles #https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Madrid #https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 locale: "en"
 
 include:
@@ -60,44 +60,40 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Jim Perrin"
+  name   : "Héctor Louzao"
   avatar : "/assets/images/bio-photo.jpg"
-  location: "Portland Oregon"
+  location: "Gijón Asturias España"
   bio    : >-
-    Something something at Microsoft something.
-    Formerly at Red Hat, and CentOS board member. <br />
+    Formerly Fedora Project Contributor. <br />
     I do terrible things to software
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://jperrin.org"
+      url: "https://hhlp.github.io/home/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/BitIntegrity"
+      url: "https://twitter.com/hhlp"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jperrin"
+      url: "https://github.com/hhlp"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/hhlp"      
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/hhlp/"      
     - label: "Keybase"
       icon: "fab fa-fw fa-keybase"
-      url: "https://keybase.io/jperrin"
+      url: "https://keybase.io/hhlp"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jim-perrin-72aa3117"
+      url: "https://www.linkedin.com/in/louzaoh"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/BitIntegrity"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jperrin"
-    - label: "Keybase"
-      icon: "fab fa-fw fa-keybase"
-      url: "https://keybase.io/jperrin"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jim-perrin-72aa3117"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://hhlp.github.io/home/"
 
 defaults:
   # _posts
