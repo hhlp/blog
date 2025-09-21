@@ -8,6 +8,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # <-- IMPORTANT: needed to push to gh-pages
 
     steps:
     - uses: actions/checkout@v4
