@@ -4,6 +4,7 @@ Category: fedora
 Tags: intro
 Slug: hello-fedora-planet
 Author: hhlp
+Status: published
 Summary: This is my first post in Fedora Planet!
 
 Welcome to the Planet, I'm in now 🚀👏
