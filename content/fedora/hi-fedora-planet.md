@@ -1,5 +1,5 @@
 Title: Hello Fedora Planet
-Date: 2025-09-22
+Date: 2025-09-22 13:22
 Category: fedora
 Tags: intro
 Slug: hello-fedora-planet
